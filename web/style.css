@@ -1,0 +1,199 @@
+/* CSS Document */
+body{
+	padding:0; margin:0;background:url(imagenes/bg.gif) repeat-x #000; color:#A5A5A4;
+	}
+div, ul, h1, h2, h3, h4, p, img, form{
+	padding:0; margin:0;
+	}
+ul{
+	list-style-type:none;
+	}
+.blank{
+	font-size:0px; clear:both; line-height:0px;
+	}
+/*--------------------------------header pan---------------------------*/
+#encabezado{
+	width:900px; margin:0 auto 0 auto; background:url(imagenes/header_pic.jpg) no-repeat; height:340px;
+	}
+#encabezado ul{
+	width:800px; margin:0 0 0 139px; display:block; height:21px;
+	}
+#encabezado ul li{
+	display:block; float:left; height:21px; margin:0; padding:0;
+	}
+#encabezado ul li a{
+	font: bold 12px/21px "Trebuchet MS", Arial, Helvetica, sans-serif; padding:0 14px 0 14px; color:#EAEAEA;
+	background-color:#242424; text-decoration:none; margin:0; height:21px;
+	}
+#encabezado ul li a.home{
+	background: url(imagenes/house.png) center left no-repeat;
+   padding-left: 25px;
+}
+#encabezado ul li a.list{
+	background: url(imagenes/database_table.png) center left no-repeat;
+   padding-left: 25px;
+}
+#encabezado ul li a.login{
+	background: url(imagenes/information.png) center left no-repeat;
+   padding-left: 25px;
+}
+#encabezado ul li a:hover{
+	color:#EAEAEA; background-color:#0867C3;
+	}
+#encabezado p {
+	font: bold 12px/21px "Trebuchet MS", Arial, Helvetica, sans-serif; padding:0 14px 0 14px; color:#EAEAEA;
+	background-color:#242424; text-decoration:none; margin:0; height:21px;
+	}
+#encabezado h1{
+	background:url(imagees/company_name.gif) no-repeat; margin:48px 0 0 251px;  width:233px; height:100px; display:block;
+	text-indent:-2000px; 
+	}
+#encabezado form{
+	width:700px; height:46px; background:url(imagenes/search_bg.gif) no-repeat 0 0; margin:125px 0 0 60px; font-size:0;
+	padding:0;
+	}
+#encabezado form label{
+	font:24px/26px Arial, Helvetica, sans-serif; color:#CBCBCB; margin:8px 0 0 64px; float:left;  padding:0;
+	font-weight:normal; background-color:#000000;
+	}
+#encabezado form input{
+	width:158px; height:22px; display:block; background-color:#171717; border:#494949 1px solid; color:#ACACAC;
+	float:left; margin:12px 0 0 20px; padding:0 0 0 5px;
+	}
+#encabezado input.button{
+	width:31px; height:23px; background:url(imagenes/search_button.gif) no-repeat 0 0; float:left; cursor:pointer; border:none;
+	}
+/*----------------------------------body part----------------*/
+#cuerpo{
+	width:900px; margin:15px 0px 0px 120px; 
+	}
+/*-------------left side------*/
+#menuIzq{
+	width:161px; background:url(imagenes/left_side_up.gif) no-repeat 0 0 #171717; padding:19px 0 0 0; float:left;	
+	}
+#menuIzq p{
+	background:url(imagenes/left_side_down.gif) no-repeat bottom left; height:8px; font-size:0; display:block;
+	}
+#menuIzq h2{
+	background:url(imagenes/services_icon.gif) no-repeat 0 0 #171717; color:#fff; width:90px; height:34px; display:block;
+	margin:0px 0 0 25px; font: normal 24px/34px Arial, Helvetica, sans-serif; padding: 0 0 0 25px;
+	}
+#menuIzq ul{
+	width:119px; display:block; margin:6px 0 24px 25px; font-size:0;
+	}
+#menuIzq ul li{
+	background:url(imagenes/left_side_arrow.gif) no-repeat 0 9px; padding: 0 0 0 11px; display:block; height:24px;
+	}
+#menuIzq ul li a{
+	font:12px/24px Arial, Helvetica, sans-serif; color:#B6B6B5; text-decoration:none; background-color:#171717; display:block;
+	}
+#menuIzq ul li a:hover{
+	background-color:#454545; color:#B6B6B5;
+	}
+/*-------------------------------right-------*/
+#informacion{
+	width:650px; margin:0 0 0 0px; float:right;
+	}
+#informacion p{
+	width:600px; font:14px/20px Arial, Helvetica, sans-serif; color:#A5A5A4; background-color:#000000; display:block;
+	margin:0 0 0 0;
+	}
+#informacion p span{
+	color:#2BCB02; background-color:#000000; font-size:17px; font-weight:bold;
+	}
+#informacion input{
+	width:150px; height:20px; background-color:#171717; border:#494949 1px solid; color:#ACACAC;
+	}
+#informacion input.boton{
+	width:150px; height:20px; background-color:#ffffff; border:#494949 1px solid; color:#black;
+	}
+#informacion table {
+   border: 1px solid #ccc;
+   width: 100%
+   }
+#informacion table.login {
+	width:0%
+   }
+#informacion th {
+   background: #fff url(imagenes/shadow.jpg);
+   color: #666;
+   font-size: 11px;
+   font-weight: bold;
+   line-height: 17px;
+   padding: 2px 6px;
+	}
+#informacion td, th {
+   font: 11px verdana, arial, helvetica, sans-serif;
+   line-height: 12px;
+   padding: 5px 6px;
+   text-align: left;
+   vertical-align: top;
+	}
+#informacion td {
+	color: #ffffff;
+	background-color:#666666;
+	}
+#informacion td a:link, td a:visited, td a:hover {
+   color: #ffffff;
+   display: block;
+   font-size: 10px;
+   text-decoration: none;
+   width: 100%;
+}
+/*#informacion td:hover{
+    background: #b2d1ff;
+}*/
+#informacion form{
+
+}
+#informacion .add{
+	background: url(imagenes/database_add.png) center left no-repeat;
+   padding-left: 25px;
+}
+#informacion .edit{
+	background: url(imagenes/database_edit.png) center left no-repeat;
+   padding-left: 25px;
+}
+#informacion .delete{
+	background: url(imagenes/database_delete.png) center left no-repeat;
+   padding-left: 25px;
+}
+#informacion .save{
+	background: url(imagenes/database_save.png) center left no-repeat;
+   padding-left: 25px;
+}
+/*-------------------------------footer---------*/
+#pieDePagina{
+	background:url(imagenes/footer_bg.gif) repeat-x 0 0; width:100%;
+	}	
+#pie{
+	background:url(imagenes/footer.gif) no-repeat 0 0; height:97px; width:778px; margin:0 auto 0 auto; padding:74px 0 0 0;
+	}
+#pie ul{
+	width:446px; display:block; margin:0px 0 0 270px; padding:0; font-size:0; height:20px; 
+	}
+#pie ul li{
+	color:#9B9B9B; font:12px/18px "Trebuchet MS", Arial, Helvetica, sans-serif;  float:left; background-color:#0F0F0F;
+	padding:0; margin:0;
+	}
+#pie ul li a{
+	color:#9B9B9B; font:12px/18px "Trebuchet MS", Arial, Helvetica, sans-serif;  background-color:#0D0D0D;
+	text-decoration:none; padding:0 6px 0 6px; 
+	}
+#pie ul li a:hover{
+	text-decoration:underline;
+	}
+#pie p{
+	width:324px; display:block; font:12px/18px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color:#EAEAEA; margin:0px 0 0 430px; padding:0 0 9px 0;
+	}
+#pie p.designedBy{
+	width:250px; display:block; font:12px/18px "Trebuchet MS", Arial, Helvetica, sans-serif; color:#EAEAEA; margin:0;
+	background-color:#030303; padding:0; float:right; display:block;
+	}
+#pie p.designedBy a{
+	text-decoration:underline; color:#EAEAEA; background-color:#030303;
+	}
+#pie p.designedBy a:hover{
+	text-decoration:none
+	}

@@ -1,0 +1,4 @@
+<?php // Manual de PHP de WebEstilo.com 
+ 
+echo 'Ahora el nombre es '.session_name().' y la sesión '.$misesion.'<br>'; 
+?> 

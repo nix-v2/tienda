@@ -1,0 +1,16 @@
+<?php
+include "conexion.php";
+$nick = isset($_POST["name"])?$_POST["name"]:"";
+$passwd = isset($_POST["pass"])?$_POST["pass"]:"";
+   $result = mysql_query("SELECT passwrd FROM usuarios WHERE nick='$nick'");
+	if($row=mysql_fetch_array($result)){
+		if($row["passwrd"]==$passwd){
+		session_register('name');
+		session_name('name'); 
+		header ("Location: http://localhost/autopartes/home.php");
+	}else
+		echo "password no good";
+	}else
+	echo "Usuario no existente en la base de datos";
+include "close_conexion.php";
+?>

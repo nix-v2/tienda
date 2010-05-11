@@ -1,0 +1,113 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+	<head>
+		<title>Autopartes</title>
+		<link href="style.css" rel="stylesheet" type="text/css" />
+	</head>
+	<body>
+		<!--header paer start -->
+		<div id="encabezado">
+			<ul>
+				<li><a href="#">Inicio</a></li>
+				<li><a href="#">Sucursales</a></li>
+				<li><a href="#">Registros</a></li>
+				<li><input type="text" name="textbox" value="Usuario" /></li>
+				<li><input type="text" name="textbox" value="Password" /></li>
+			</ul>
+			<form name="search_box" method="post"  action="">
+				<label>Busqueda</label>
+				<input type="text" name="textbox" value="Correo" />
+				<input type="button" name="buttone" class="button" value="" title="button" />
+			</form>
+		</div>
+		<!--header part end -->
+		<!--body part start -->
+		<div id="mainBody">
+			<!--left side start -->
+			<div id="leftPan">
+				<h2>Partes</h2>
+				<ul>
+					<li><a href="#">CARROCERIAS</a></li>
+					<li><a href="#">MOFLES</a></li>
+					<li><a href="#">SONIDO</a></li>
+					<li><a href="#">LLANTAS</a></li>
+					<li><a href="#">INTERIORES</a></li>
+					<li><a href="#">ACCESORIOS</a></li>
+					<li><a href="#">ELECTRONICOS</a></li>
+					<li><a href="#">PINTURAS</a></li>
+					<li><a href="#">VINILOS</a></li>
+					<li><a href="#">RINES</a></li>
+					<li><a href="#">FRENOS</a></li>
+					<li><a href="#">MOTORES</a></li>
+					<li><a href="#">MODELOS</a></li>
+					<li><a href="#">Your Service 18</a></li>
+				</ul>
+				<h3>CLIENTES</h3>
+				<h3 class="lor">Lorem ipsum dolor sit amet</h3>
+				<ul class="says">
+					<li><a href="#">consectetuer </a></li>
+					<li><a href="#">adipiscing</a></li>
+					<li><a href="#">Aenean non arcu. </a></li>
+					<li><a href="#">Cras lacinia id </a></li>
+					<li><a href="#">vestibulum </a></li>
+				</ul>
+				<a class="more" href="#">more comments</a>
+				<p></p>
+			</div>
+			<!--left side end -->
+			<!--right side start -->
+			<div id="rightPan">
+				<h2><a href="#" class="eve" title="current events"> current events</a> </h2>
+				<h2><a href="#" class="work" title="our works"> our works</a></h2>
+				
+				<h2 class="about">about company</h2>
+				<p>Esta seccon sera utilizada para poner nuestras caracteristicas generales en descripcion de nuestros productos</p>
+				<p>Somos Tio&Company <span>Autopartes</span>Bienbenidos a nuestro sitio</p>
+				<p class="more"><a href="#">lea mas</a></p>
+
+				<h3>highlights</h3>
+				<p class="hig">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean non arcu. Cras lacinia, nulla </p>
+				<p class="one">Aliquam erat volutpat. Vivamus metus dolor, accumsan a, blandit vel, congue rhoncus, nisl.</p>
+				<p class="more1"> <a href="#">read more</a></p>
+
+				<p class="hig1">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean non arcu. Cras lacinia, nulla </p>
+				<p class="two">Aliquam erat volutpat. Vivamus metus dolor, accumsan a, blandit vel, congue rhoncus, nisl.</p>
+				<p class="more2"> <a href="#">read more</a></p>
+
+				<p class="hig1">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean non arcu. Cras lacinia, nulla </p>
+				<p class="three">Aliquam erat volutpat. Vivamus metus dolor, accumsan a, blandit vel, congue rhoncus, nisl.</p>
+				<p class="more2"> <a href="#">read more</a></p>
+
+				<ul>
+					<li class="time"><a href="#">time management</a></li>
+					<li class="latest"><a href="#" class="la">latest portfolios</a></li>
+					<li class="what"><a href="#" class="wh">latest portfolios</a></li>
+				</ul>
+			</div>
+			<!--right side end -->
+			<br class="blank" />
+		</div>
+		<!--body part end -->
+		<!--footer start -->
+		<div id="footerMain">
+			<div id="footer">
+				<ul>
+					<li><a href="#">Inicio</a></li>
+					<li><a href="#">Acerca de Nosotros</a></li>
+					<li><a href="#">Sucursales</a></li>
+					<li><a href="#">Inscripciones</a></li>
+					<li><a href="#">Registros</a></li>
+					<li><a href="#">Financiamiento</a></li>
+					<li><a href="#">Contactos</a></li>
+				</ul>
+				<p>&copy; Copyright  dark dimension. All rights reserved.</p>
+				<ul class="css">
+					<li><a href="http://validator.w3.org/check?uri=referer" target="_blank" class="html" title="html">xhtml</a></li>
+					<li><a href="http://jigsaw.w3.org/css-validator/check/referer" target="_blank" class="cs" title="css">css</a></li>
+					</ul>
+				<p class="copy">Designed by: <a href="http://www.templateworld.com/" target="_blank">Template World</a></p>
+			</div>
+		</div>
+		<!--footer end -->
+	</body>
+</html>
